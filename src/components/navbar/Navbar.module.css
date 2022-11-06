@@ -1,12 +1,17 @@
-.navList{
+.navList {
     display: flex;
-    width:350px ;
+    width: 350px;
     list-style: none;
     justify-content: space-between;
 
 }
 
-.navItem{
+.navItem {
     width: auto;
 
+}
+
+.navLink {
+
+    text-decoration: none;
 }

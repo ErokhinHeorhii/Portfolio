@@ -5,10 +5,15 @@ function Navbar() {
     return (
         <div className={s.navbar}>
             <ul className={s.navList}>
-                <li className={s.navItem}> Main</li>
-                <li className={s.navItem}> Skills</li>
-                <li className={s.navItem}> Projects</li>
-                <li className={s.navItem}> Contact</li>
+                <li className={s.navItem}>
+                    <a className={s.navLink} href={"#"}>Main</a></li>
+                <li className={s.navItem}>
+                    <a className={s.navLink} href={"#"}>Skills</a></li>
+                <li className={s.navItem}>
+                    <a className={s.navLink} href={"#"}>Projects</a></li>
+                <li className={s.navItem}>
+                    <a className={s.navLink} href={"#"}>Contact</a>
+                </li>
             </ul>
 
         </div>
