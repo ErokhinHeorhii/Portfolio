@@ -1,0 +1,43 @@
+.wrapperSkills {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background-color: burlywood;
+}
+
+.skills {
+    width: calc(100% - 400px);
+    margin: 0 auto;
+    min-height: calc(100% - 400px);
+    border: 1px Solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.description {
+    width: 100%;
+    border: 1px Solid;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    background-color: aqua;
+}
+
+.wrapperItem{
+    width: 30%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    border: 1px Solid;
+    background-color: darkkhaki;
+}
+
+.image {
+    width: 40px;
+    height: 40px;
+}

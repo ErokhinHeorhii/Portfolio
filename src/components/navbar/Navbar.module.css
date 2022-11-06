@@ -1,0 +1,12 @@
+.navList{
+    display: flex;
+    width:350px ;
+    list-style: none;
+    justify-content: space-between;
+
+}
+
+.navItem{
+    width: auto;
+
+}

@@ -1,0 +1,28 @@
+.wrapperMean {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-color: aqua;
+}
+
+.mean {
+    width: calc(100% - 400px);
+    margin: 0 auto;
+    min-height: calc(100% - 400px);
+    border: 1px Solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.description {
+    width: 40%;
+
+}
+
+.picture {
+    width: 300px;
+    height: 250px;
+    background-image: url('#');
+    background-color: antiquewhite;
+}
