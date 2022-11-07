@@ -8,9 +8,9 @@ function Works() {
             <div className={s.skills}>
                 <h2>My Works</h2>
                 <div className={s.description}>
-                    <ItemSkills title={"React"} description={"Made AP with React"}
+                    <ItemSkills title={"React"} description={"Made AP wietvdfvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvh React"}
                                 img={require("../../assets/svg/React.png")}/>
-                    <ItemSkills title={"JS"} description={"Made AP with React"}
+                    <ItemSkills title={"JS"} description={"Made jkuttttttttttttttukyttttttttttttttttttttj,yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyttttttttttttttttttttttttttttttttttttAP with React"}
                                 img={require("../../assets/svg/Js.png")}/>
 
                 </div>

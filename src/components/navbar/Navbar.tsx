@@ -6,13 +6,13 @@ function Navbar() {
         <div className={s.navbar}>
             <ul className={s.navList}>
                 <li className={s.navItem}>
-                    <a className={s.navLink} href={"#"}>Main</a></li>
+                    <a className={s.navLink} href={"###"}>Main</a></li>
                 <li className={s.navItem}>
-                    <a className={s.navLink} href={"#"}>Skills</a></li>
+                    <a className={s.navLink} href={"###"}>Skills</a></li>
                 <li className={s.navItem}>
-                    <a className={s.navLink} href={"#"}>Projects</a></li>
+                    <a className={s.navLink} href={"###"}>Projects</a></li>
                 <li className={s.navItem}>
-                    <a className={s.navLink} href={"#"}>Contact</a>
+                    <a className={s.navLink} href={"###"}>Contact</a>
                 </li>
             </ul>
 

@@ -11,14 +11,17 @@ function Skills(props: any) {
     return (
         <div className={s.wrapperItem}>
             <div className={s.wrapperForImageButton}>
-            <img className={s.image} src={props.img} alt={"img"}/>
-                <a className={s.button} href={"#"}>Look
+                <img className={s.image} src={props.img} alt={"img"}/>
+                <a className={s.button} href={"###"}>Look
                 </a>
             </div>
-            <h3>{props.title}</h3>
-            <div className={s.d}>
-                {props.description}
+            <div className={s.wrapperForDescriptions}>
+                <h3>{props.title}</h3>
+                <div className={s.workDescription}>
+                    {props.description}
+                </div>
             </div>
+
         </div>
 
     );
