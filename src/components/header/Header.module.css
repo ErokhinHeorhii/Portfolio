@@ -22,3 +22,14 @@
     cursor: pointer;
     transition: .5s;
 }
+
+@media (max-width: 460px){
+    .logo{
+       display:none;
+    }
+    .header{
+        /*width: 100%;*/
+    }
+    .container{
+        padding: 0 5px;
+}}

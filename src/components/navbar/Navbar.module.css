@@ -1,17 +1,26 @@
 .navList {
     display: flex;
     width: 350px;
+    padding-left: 0px;
     list-style: none;
     justify-content: space-between;
-
+    border: 1px solid;
 }
 
 .navItem {
     width: auto;
-
 }
 
 .navLink {
-
     text-decoration: none;
+}
+
+@media (max-width: 460px){
+    .navList{
+        justify-content:space-around;
+    }
+    .navbar{
+        margin:0 auto;
+    }
+
 }
