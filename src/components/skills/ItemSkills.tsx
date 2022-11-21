@@ -11,7 +11,7 @@ function Skills(props: PropsType) {
     return (
         <div className={s.wrapperItem}>
             <img className={s.image} src={props.img} alt={"img"}/>
-            <h3>{props.title}</h3>
+            <h2>{props.title}</h2>
             <div className={s.d}>
                 {props.description}
             </div>

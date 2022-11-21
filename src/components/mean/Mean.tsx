@@ -6,9 +6,9 @@ function Mean() {
         <div className={s.wrapperMean}>
             <div className={s.mean}>
                 <div className={s.description}>
-                    <h1> Hello Everyone</h1>
+                    <h1 className={s.h1}> Hello Everyone</h1>
                     <div> My name is Yarokhin Heorhi</div>
-                    <div> And J is Frontend -Developer</div>
+                    <div> And J`m Frontend -Developer</div>
                 </div>
                 <div className={s.picture}></div>
             </div>

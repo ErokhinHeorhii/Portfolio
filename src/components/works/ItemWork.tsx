@@ -7,7 +7,7 @@ type PropsType = {
     img: string
 }
 
-function Skills(props: any) {
+function ItemWork(props: PropsType) {
     return (
         <div className={s.wrapperItem}>
             <div className={s.wrapperForImageButton}>
@@ -16,7 +16,7 @@ function Skills(props: any) {
                 </a>
             </div>
             <div className={s.wrapperForDescriptions}>
-                <h3>{props.title}</h3>
+                <h2>{props.title}</h2>
                 <div className={s.workDescription}>
                     {props.description}
                 </div>
@@ -27,4 +27,4 @@ function Skills(props: any) {
     );
 }
 
-export default Skills;
+export default ItemWork;

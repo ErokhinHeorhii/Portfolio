@@ -1,4 +1,4 @@
-.header{
+.header {
     height: 80px;
     background-color: aquamarine;
     align-items: center;
@@ -6,7 +6,7 @@
     justify-content: space-between;
 }
 
-.container{
+.container {
     width: 1920px;
     padding: 0 20px;
     display: flex;
@@ -14,7 +14,7 @@
     justify-content: space-between;
 }
 
-.logo{
+.logo {
     width: 50px;
     height: 50px;
     background-image: url('../../assets/svg/portfolio-svgrepo-com.svg');
@@ -23,13 +23,15 @@
     transition: .5s;
 }
 
-@media (max-width: 460px){
-    .logo{
-       display:none;
+@media (max-width: 460px) {
+
+    .logo {
+        display: none;
     }
-    .header{
+    .header {
         /*width: 100%;*/
     }
-    .container{
+    .container {
         padding: 0 5px;
-}}
+    }
+}

@@ -17,7 +17,7 @@
 }
 
 .wrapperInput {
-    max-width: 320px;
+    width: 450px;
     height: 230px;
     display: flex;
     flex-direction: column;
@@ -56,3 +56,34 @@
     border: none;
     margin-bottom: 5px;
 }
+
+@media (max-width: 968px) {
+    .contacts{
+        width: calc(100% - 250px);
+    }
+    .wrapperInput {
+        width: calc(100% - 30%);
+    }
+
+}
+@media (max-width: 768px) {
+
+    .contacts{
+        width: calc(100% - 25%);
+        min-height: calc(100% - 35%);
+    }
+    .wrapperInput{
+        min-width: 215px;
+    }
+}
+@media (max-width: 515px) {
+
+    .contacts{
+        width: calc(100% - 10%);
+        min-height: calc(100% - 30%);
+    }
+    .wrapperInput{
+        min-width: 165px;
+    }
+}
+

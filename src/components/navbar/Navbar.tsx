@@ -8,7 +8,7 @@ function Navbar() {
                 <li className={s.navItem}>
                     <a className={s.navLink} href={"###"}>Main</a></li>
                 <li className={s.navItem}>
-                    <a className={s.navLink} href={"###"}>Skills</a></li>
+                    <a className={s.navLink} href='mySkills'>Skills</a></li>
                 <li className={s.navItem}>
                     <a className={s.navLink} href={"###"}>Projects</a></li>
                 <li className={s.navItem}>

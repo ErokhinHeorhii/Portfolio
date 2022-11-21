@@ -4,15 +4,15 @@ import ItemSkills from "./ItemSkills";
 
 function Skills() {
     return (
-        <div className={s.wrapperSkills}>
+        <div className={s.wrapperSkills} id="mySkills">
             <div className={s.skills}>
                 <h2>My Skills</h2>
                 <div className={s.description}>
-                    <ItemSkills title={"React"} description={"Made AP with React"}
+                    <ItemSkills title={"React"} description={"Made API with React"}
                                 img={require("../../assets/svg/React.png")}/>
-                    <ItemSkills title={"JS"} description={"Made AP with React"}
+                    <ItemSkills title={"JS"} description={"Made API with React"}
                                 img={require("../../assets/svg/Js.png")}/>
-                    <ItemSkills title={"HTML/CSS"} description={"Made AP with React"}
+                    <ItemSkills title={"HTML/CSS"} description={"Made API with React"}
                                 img={require("../../assets/svg/Html.png")}/>
                 </div>
             </div>
