@@ -1,11 +1,12 @@
 import React from 'react';
 import s from "./Skills.module.css"
 import ItemSkills from "./ItemSkills";
+import   "../../App.css"
 
 function Skills() {
     return (
-        <div className={s.wrapperSkills} id="mySkills">
-            <div className={s.skills}>
+        <div className={`${s.wrapperSkills} + wrapper`} id="mySkills">
+            <div className ={`${s.skills} + container`} >
                 <h2>My Skills</h2>
                 <div className={s.description}>
                     <ItemSkills title={"React"} description={"Made API with React"}

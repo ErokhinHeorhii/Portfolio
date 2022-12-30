@@ -1,19 +1,9 @@
 .wrapperContacts {
-    display: flex;
-    align-items: center;
-    height: 100vh;
     background-color: aqua;
 }
 
 .contacts {
-    width: calc(100% - 400px);
-    margin: 0 auto;
-    height: calc(100% - 400px);
-    border: 1px Solid;
-    display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
 }
 
 .wrapperInput {
@@ -30,7 +20,6 @@
     width: 100%;
     border: 2px solid #BDAE82;
     background: rgba(0, 0, 0, 0.2);
-    font-family: Inter;
     color: brown;
     font-size: 20px;
     resize: none;
@@ -42,7 +31,6 @@
     height: 25px;
     border: 2px solid #BDAE82;
     background: rgba(0, 0, 0, 0.2);
-    font-family: Inter;
     color: brown;
     font-size: 20px;
 }
@@ -58,31 +46,36 @@
 }
 
 @media (max-width: 968px) {
-    .contacts{
+    .contacts {
         width: calc(100% - 250px);
     }
+
     .wrapperInput {
         width: calc(100% - 30%);
     }
 
 }
+
 @media (max-width: 768px) {
 
-    .contacts{
+    .contacts {
         width: calc(100% - 25%);
         min-height: calc(100% - 35%);
     }
-    .wrapperInput{
+
+    .wrapperInput {
         min-width: 215px;
     }
 }
+
 @media (max-width: 515px) {
 
-    .contacts{
+    .contacts {
         width: calc(100% - 10%);
         min-height: calc(100% - 30%);
     }
-    .wrapperInput{
+
+    .wrapperInput {
         min-width: 165px;
     }
 }

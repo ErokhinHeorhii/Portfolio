@@ -1,10 +1,11 @@
 import React from 'react';
 import s from "./Contacts.module.css"
+import   "../../App.css"
 
 function Contacts() {
     return (
-        <div className={s.wrapperContacts}>
-            <div className={s.contacts}>
+        <div className={`${s.wrapperContacts} + wrapper`}>
+            <div className={`${s.contacts} + container`}>
                 <h2 className={s.title}>Contact me</h2>
                 <form className={s.wrapperInput}>
                     <input  className={s.input} placeholder="E-mail"></input>

@@ -1,18 +1,6 @@
-.wrapperMean {
-    display: flex;
-    align-items: center;
+.wrapperMain {
     height: 100vh;
     background-color: aqua;
-}
-
-.mean {
-    width: calc(100% - 400px);
-    margin: 0 auto;
-    min-height: calc(100% - 400px);
-    border: 1px Solid;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
 }
 
 .description {
@@ -20,16 +8,15 @@
 }
 
 .picture {
-
     width: 300px;
     height: 250px;
     background-image: url('#');
     background-color: antiquewhite;
 }
 
-@media (max-width: 968px) {
+@media screen and (max-width: 968px) {
 
-    .mean {
+    .main {
         width: calc(100% - 250px);
         min-height: calc(100% - 300px);
         flex-direction: column;
@@ -48,17 +35,17 @@
     }
 
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
-    .mean {
+    .main {
         width: calc(100% - 25%);
         min-height: calc(100% - 25%);
 
     }
 }
-@media (max-width: 515px) {
+@media screen and (max-width: 515px) {
 
-    .mean {
+    .main {
         width: calc(100% - 10%);
 
     }

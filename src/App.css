@@ -48,3 +48,18 @@ html {
     margin: 0 auto;
     padding: 0 20px;
 }
+.wrapper {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: calc(100% - 300px);
+    margin: 0 auto;
+    min-height: calc(100% - 400px);
+    border: 1px Solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

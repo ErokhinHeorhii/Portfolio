@@ -1,11 +1,10 @@
 import React from 'react';
 import s from "./Footer.module.css"
-import Navbar from "../navbar/Navbar";
 
 function Footer() {
     return (
         <div className={s.wrapperFooter}>
-            <div className={s.container}>
+            <div className={`${s.footer} + container`}>
                 <h2>My Name</h2>
                 <div className={s.wrapperForContact}>
                     <ul className={s.wrapperForFooterItem}>

@@ -1,10 +1,11 @@
 import React from 'react';
-import s from "./Mean.module.css"
+import s from "./Main.module.css"
+import   "../../App.css"
 
-function Mean() {
+function Main() {
     return (
-        <div className={s.wrapperMean}>
-            <div className={s.mean}>
+        <div className={`${s.wrapperMain} + wrapper`}>
+            <div className={`${s.main} + container `}>
                 <div className={s.description}>
                     <h1 className={s.h1}> Hello Everyone</h1>
                     <div> My name is Yarokhin Heorhi</div>
@@ -17,4 +18,4 @@ function Mean() {
     );
 }
 
-export default Mean;
+export default Main;
