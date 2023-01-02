@@ -1,5 +1,7 @@
+@import '../../common/style/sass/variables.scss';
+
 .wrapperContacts {
-    background-color: aqua;
+    background-color: #252527;
 }
 
 .contacts {

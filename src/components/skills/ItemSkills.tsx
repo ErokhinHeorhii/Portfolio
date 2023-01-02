@@ -12,7 +12,7 @@ function Skills(props: PropsType) {
         <div className={s.wrapperItem}>
             <img className={s.image} src={props.img} alt={"img"}/>
             <h2>{props.title}</h2>
-            <div className={s.d}>
+            <div className={s.descriptionSkills}>
                 {props.description}
             </div>
         </div>

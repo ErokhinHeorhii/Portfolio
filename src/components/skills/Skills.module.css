@@ -1,5 +1,5 @@
 .wrapperSkills {
-    background-color: burlywood;
+    background-color: #252527;
     min-height: 100vh;
 }
 
@@ -9,11 +9,11 @@
 
 .description {
     width: 100%;
-    border: 1px Solid;
+    /*border: 1px Solid;*/
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    background-color: aqua;
+    background-color: #252527;
 }
 
 .wrapperItem {
@@ -27,8 +27,20 @@
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
-    border: 1px Solid;
-    background-color: darkkhaki;
+    border: 1px Solid #4e93e6;;
+    background-color: #252527;
+}
+
+.wrapperItem h2{
+    margin: 0 0 15px;
+    padding: 0;
+    color: #fff;
+    font: 700 18px/1.2 'Josefin Sans', sans-serif;
+}
+
+.wrapperItem .descriptionSkills{
+    font: 400 14px/1.8 'Poppins', sans-serif;
+    color: #fff;
 }
 
 .image {

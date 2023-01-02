@@ -5,7 +5,9 @@ function Footer() {
     return (
         <div className={s.wrapperFooter}>
             <div className={`${s.footer} + container`}>
-                <h2>My Name</h2>
+                <div>
+                    <h2  className={s.footerTitle}>Heorhi Yarokhin</h2>
+                </div>
                 <div className={s.wrapperForContact}>
                     <ul className={s.wrapperForFooterItem}>
                         <li className={s.footerItem}></li>

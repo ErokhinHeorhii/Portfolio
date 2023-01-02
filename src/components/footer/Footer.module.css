@@ -1,6 +1,6 @@
 .wrapperFooter {
     height: 240px;
-    background-color: aquamarine;
+    background-color: #1f1f20;
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -27,7 +27,14 @@
     list-style: none;
     justify-content:space-between;
 }
-
+h2.footerTitle{
+    position: relative;
+    margin: 0 0 30px;
+    color: #fff;
+    text-transform: capitalize;
+    font: 500 22px/1.2 'Josefin Sans', sans-serif;
+    letter-spacing: 3px;
+}
 
 .footerItem {
     width: 50px;

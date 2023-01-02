@@ -1,12 +1,25 @@
 .wrapperMain {
     height: 100vh;
-    background-color: aqua;
+    background-color: #1f1f20;;
 }
-
+h1{
+    padding: 10px 0 10px;
+    color: #fff;
+    font: 700 40px/1.2 'Josefin Sans', sans-serif;
+    letter-spacing: 5px;
+    margin: 0;
+}
 .description {
     width: 40%;
 }
-
+.title{
+    font-family:'Poppins', sans-serif;
+    font-size: 27px;
+    line-height: 1.8;
+    color: #fff;
+    margin: 0;
+    font-weight: 400;
+}
 .picture {
     width: 300px;
     height: 250px;
