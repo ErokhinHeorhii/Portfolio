@@ -7,9 +7,30 @@
     flex-direction: column;
 }
 
+.icon {
+    height: 60px;
+    color: #fff;
+    transform: rotate(-45deg);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.wrapperIcon {
+    color: #4e93e6;
+    height: 80px;
+    width: 80px;
+    background: rgba(255, 255, 255, 0.1);
+    line-height: 80px;
+    font-size: 30px;
+    box-shadow: -6px 10px 40px rgb(0 0 0 / 6%);
+    text-align: center;
+    transform: rotate(45deg);
+    transform-origin: center;
+    display: flex;
+}
+
 .description {
     width: 100%;
-    /*border: 1px Solid;*/
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -19,33 +40,39 @@
 .wrapperItem {
     min-width: 250px;
     max-width: 25%;
-    min-height: 300px;
-    margin: 8px 0;
+    min-height: 200px;
+    margin: 16px 8px;
+    padding-top: 10px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
-    border: 1px Solid #4e93e6;;
+    /*border: 1px Solid #4e93e6;*/
     background-color: #252527;
 }
 
-.wrapperItem h2{
-    margin: 0 0 15px;
+.wrapperItem h2 {
+    margin: 0 0 5px;
     padding: 0;
     color: #fff;
     font: 700 18px/1.2 'Josefin Sans', sans-serif;
 }
 
-.wrapperItem .descriptionSkills{
+.wrapperItem .descriptionSkills {
+    margin-top: -15px;
     font: 400 14px/1.8 'Poppins', sans-serif;
     color: #fff;
+    margin-bottom: 30px;
 }
 
 .image {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
+    transform: rotate(-45deg);
+    margin-top: 14px;
+    margin-left: 14px;
 }
 
 @media (max-width: 968px) {

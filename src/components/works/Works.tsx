@@ -7,14 +7,15 @@ import reactImg from "../../assets/svg/React.png"
 import jsImg from "../../assets/svg/Js.png"
 export type ImgType = { backgroundImage: string}
 
+const todolist:ImgType = {
+    backgroundImage: `url(${reactImg})`
+}
+const js:ImgType = {
+    backgroundImage: `url(${jsImg})`
+}
 
 function Works() {
-    const todolist:ImgType = {
-        backgroundImage: `url(${reactImg})`
-    }
-    const js:ImgType = {
-        backgroundImage: `url(${jsImg})`
-    }
+
     return (
         <div className={`${s.wrapperWorks} + wrapper`} id={"myWorks"}>
             <div className={`${s.works} + container`}>
@@ -29,7 +30,6 @@ function Works() {
                     <ItemWork title={"JS"}
                               description={"Made jkuttttttttttttttukyttttttttttttttttttttj,yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyttttttttttttttttttttttttttttttttttttAP with React"}
                               style={js}/>
-
                 </div>
             </div>
         </div>

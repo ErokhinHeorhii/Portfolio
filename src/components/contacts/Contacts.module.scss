@@ -1,0 +1,100 @@
+@import '../../common/style/sass/variables.scss';
+
+.wrapperContacts {
+  background-color: $backgroundColor;
+
+  .contacts {
+    flex-direction: column;
+
+    .wrapperInput {
+      min-width: calc(100% - 60%);
+      height: 230px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      font: 400 14px/1.2 'Poppins', sans-serif;
+
+      .input {
+        display: block;
+        width: 100%;
+        height: calc(1.5em + 0.75rem + 2px);
+        color: #6f889f;
+        background-color: $backgroundColor;
+        border: 1px solid #4a4a4a;
+        padding: 0 15px;
+        border-radius: 0;
+        font: inherit;
+
+      }
+
+      .textarea {
+        display: block;
+        width: 100%;
+        height: 75px;
+        color: #6f889f;
+        background-color: $backgroundColor;
+        resize: none;
+        border: 1px solid #4a4a4a;
+        padding:  15px;
+        border-radius: 0;
+        font: inherit;
+      }
+    }
+
+    .button {
+      max-width: 90px;
+      height: 30px;
+      background-color: $backgroundColor;
+      border: 1px solid #4a4a4a;
+      opacity: 80%;
+      text-decoration: none;
+      color: $textColor;
+      z-index: 3;
+      transition: .3s;
+      font: 400 14px/1.2 'Poppins', sans-serif;
+
+      &:hover {
+        opacity: 50%;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 968px) {
+  .contacts {
+    width: calc(100% - 250px);
+  }
+
+  .wrapperInput {
+    width: calc(100% - 30%);
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .contacts {
+    width: calc(100% - 25%);
+    min-height: calc(100% - 35%);
+  }
+
+  .wrapperInput {
+    min-width: 215px;
+  }
+}
+
+@media (max-width: 515px) {
+
+  .contacts {
+    width: calc(100% - 10%);
+    min-height: calc(100% - 30%);
+  }
+
+  .wrapperInput {
+    min-width: 165px;
+  }
+}
+

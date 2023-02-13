@@ -1,16 +1,19 @@
-import React from 'react';
+import React, {ReactNode} from 'react';
 import s from "./Skills.module.css"
 
 type PropsType = {
     title: string
     description: string
-    img: string
+    img?: string
+    children?: ReactNode
 }
-
-function Skills(props: PropsType) {
+    const Skills = (props: PropsType) => {
     return (
         <div className={s.wrapperItem}>
-            <img className={s.image} src={props.img} alt={"img"}/>
+            <div className={s.wrapperIcon}>
+                { props.img && <img className={s.image} src={props.img} alt={"img"}/>}
+                {props.children}
+            </div>
             <h2>{props.title}</h2>
             <div className={s.descriptionSkills}>
                 {props.description}

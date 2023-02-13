@@ -6,7 +6,6 @@
   padding-left: 0;
   list-style: none;
   justify-content: space-between;
-  border: 1px solid;
 
   .navItem {
     width: auto;
@@ -14,6 +13,10 @@
     .navLink {
       text-decoration: none;
       color: $textColor;
+      transition: .3s;
+    }
+    .navLink:hover {
+      color: $primaryColor;
     }
   }
 
@@ -29,5 +32,4 @@
   .navbar {
     margin: 0 auto;
   }
-
 }
