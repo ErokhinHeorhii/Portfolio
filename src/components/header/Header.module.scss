@@ -25,7 +25,7 @@
     }
 
     .logo:hover {
-      fill: $primaryColor;
+      fill: $textColorYellow;
     }
   }
 
@@ -36,10 +36,6 @@
 
   .logo {
     display: none;
-  }
-
-  .header {
-    /*width: 100%;*/
   }
 
   .container {
