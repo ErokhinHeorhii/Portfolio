@@ -30,7 +30,7 @@
 }
 
 .description {
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -39,7 +39,7 @@
 
 .wrapperItem {
     min-width: 250px;
-    max-width: 25%;
+    max-width: 20%;
     min-height: 200px;
     margin: 16px 8px;
     padding-top: 10px;
@@ -73,12 +73,16 @@
     transform: rotate(-45deg);
     margin-top: 14px;
     margin-left: 14px;
+    border-radius: 8px;
 }
 
 @media (max-width: 968px) {
 
     .skills {
         width: calc(100% - 250px);
+    }
+    .description {
+        width: 90%;
     }
 }
 

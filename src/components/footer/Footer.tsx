@@ -2,6 +2,7 @@ import React from 'react';
 import s from "./Footer.module.scss"
 import classnames from "classnames";
 import {FooterLink} from "./footerLink/FooterLink";
+import  {Roll} from "react-awesome-reveal";
 
 const linkForLinkedin = "https://www.linkedin.com/in/heorhi-yarokhin-739261248"
 const linkForGit = "https://github.com/Geo070684"
@@ -17,10 +18,12 @@ function Footer() {
                 </div>
                 <div className={s.wrapperForContact}>
                     <ul className={s.wrapperForFooterItem}>
+                        <Roll triggerOnce={true} className={s.wrapperInput} >
                         <FooterLink href={linkForLinkedin} img={require('../../assets/svg/linkedin-color-svgrepo-com.png')}/>
                         <FooterLink href={linkForGit} img={require('../../assets/svg/git-svgrepo-com.png')}/>
                         <FooterLink href={linkForTelegram} img={require('../../assets/svg/telegram.png')}/>
                         <FooterLink href={linkForGmail} img={require('../../assets/svg/gmail.png')}/>
+                            </Roll >
                     </ul>
                 </div>
                 <div className={s.wrapperForData}>

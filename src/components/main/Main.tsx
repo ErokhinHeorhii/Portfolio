@@ -3,12 +3,13 @@ import s from "./Main.module.scss"
 import "../../App.css"
 import classnames from 'classnames'
 import {Particle} from "../particle/Particle";
-
+import Photo from "../../assets/img/mainImage-removebg-preview.png"
+import Fade from "react-awesome-reveal";
 
 function Main() {
     return (
         <div className={classnames(s.wrapperMain, 'wrapper')} id={'main'}>
-            <Particle />
+            <Particle/>
             <div id="container" className={classnames(s.main, 'container')}>
                 <div className={s.description}>
                     <h1 className={s.h1}> Hello Everyone</h1>
@@ -17,9 +18,10 @@ function Main() {
                     </div>
                     <div className={s.title}> And J`m Frontend-Developer</div>
                 </div>
-                <div className={s.picture}></div>
+                <Fade delay={500} triggerOnce={true}>
+                    <img src={Photo} className={s.picture} alt={'img'}></img>
+                </Fade>
             </div>
-
         </div>
 
     );

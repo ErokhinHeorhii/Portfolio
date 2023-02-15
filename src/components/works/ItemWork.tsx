@@ -24,9 +24,7 @@ function ItemWork(props: PropsType) {
                     {props.description}
                 </div>
             </div>
-
         </div>
-
     );
 }
 

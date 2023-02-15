@@ -33,6 +33,6 @@ html {
     border: 1px Solid;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
