@@ -7,7 +7,7 @@ import {Zoom} from "react-awesome-reveal";
 
 function Contacts() {
     return (
-        <div className={classnames(s.wrapperContacts, 'wrapper')} id={"myContacts"}>
+        <div className={classnames(s.wrapperContacts, 'wrapper')} id={"myContact"}>
             <div className={classnames(s.contacts,'container')}>
                 <Title title={"Contact me"}/>
                 <Zoom triggerOnce={true} className={s.wrapperInput} >

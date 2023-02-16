@@ -10,19 +10,18 @@ h1 {
   padding: 10px 0 10px;
   color: #ffc107;
   font: 700 46px/1.2 'Josefin Sans', sans-serif;
-  letter-spacing: 5px;
+  letter-spacing: 13px;
   margin: 0;
 }
 
 .description {
-  width: 40%;
   z-index: 5;
 }
 
 .title {
   font-family: 'Poppins', sans-serif;
-  font-size: 22px;
-  line-height: 1.8;
+  font-size: 24px;
+  line-height: 2.2;
   color: #fff;
   margin: 0;
   font-weight: 400;
@@ -40,7 +39,7 @@ h1 {
     background: $primaryColor;
     width: 100%;
     height: 8px;
-    margin: 25px auto;
+    margin: 30px auto;
     transition: .3s;
     z-index: -1;
   }
@@ -48,7 +47,7 @@ h1 {
 
 .picture {
   display: block;
-  width: 450px;
+  width: 360px;
   height: auto;
   z-index: 3;
   margin-bottom: 4rem;
@@ -82,7 +81,9 @@ h1 {
   .main {
     width: calc(100% - 25%);
     min-height: calc(100% - 25%);
-
+  }
+  .picture {
+    width: 350px;
   }
 }
 
@@ -90,6 +91,8 @@ h1 {
 
   .main {
     width: calc(100% - 10%);
-
+  }
+  .picture {
+    width: 300px;
   }
 }

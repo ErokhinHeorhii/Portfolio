@@ -5,7 +5,7 @@ import "../../App.css"
 import {Title} from "../../common/components/title/Title";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faGit, faReact} from '@fortawesome/free-brands-svg-icons'
-import  {Zoom} from "react-awesome-reveal";
+import {Roll, Zoom} from "react-awesome-reveal";
 
 
 function Skills() {
@@ -13,8 +13,9 @@ function Skills() {
         <div className={`${s.wrapperSkills} + wrapper`} id="mySkills">
             <div className={`${s.skills} + container`}>
                 <Title title={"My Skills"}/>
+
                 <div className={s.description}>
-                    <Zoom delay={200}  triggerOnce={true}>
+                    <Roll triggerOnce={true} className={s.wrapperInput} >
                     <ItemSkills title={"React"} description={'Library for SPA'}>
                         <FontAwesomeIcon icon={faReact} className={s.icon}/>
                     </ItemSkills>
@@ -22,7 +23,7 @@ function Skills() {
                                 img={require("../../assets/svg/Redux.png")}/>
                     <ItemSkills title={"JavaScript"} description={'Native programming language'}
                                 img={require("../../assets/svg/Js.png")}/>
-                        <ItemSkills title={"TypeScript"} description={'Strongly typed programming language'}
+                        <ItemSkills title={"TypeScript"} description={'Typed programming language'}
                                     img={require("../../assets/svg/typescript.png")}/>
                     <ItemSkills title={"Html/Css"} description={'Hypertext Markup Language'}
                                 img={require("../../assets/svg/Html.png")}/>
@@ -31,7 +32,7 @@ function Skills() {
                     <ItemSkills title={"Git"} description={'Version control system'}>
                         <FontAwesomeIcon icon={faGit} className={s.icon}/>
                     </ItemSkills>
-                        </Zoom>
+                        </Roll>
                 </div>
             </div>
         </div>
